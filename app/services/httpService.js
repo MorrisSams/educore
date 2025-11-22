@@ -1,6 +1,6 @@
 import axios from "axios";
 import Cookies from "js-cookie";
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "https://diplomaticlog.com/api";
+export const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "https://tovitranstels.com/api";
 
 
 const timeoutConfig = {
@@ -40,3 +40,4 @@ export const getErrorResponse = (error) => {
     data: error?.response?.data,
   };
 };
+
